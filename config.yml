@@ -1,6 +1,6 @@
 number_of_empty_lines_to_preserve: # "1"
 
-join_wrapped_lines: # "true"
+join_wrapped_lines: # "false"
 join_lines_in_comments: # "true"
 lineSplit: # "80"
 
@@ -212,7 +212,7 @@ parentheses:
   - positions_in_catch_clause # "common_lines"
   - positions_in_annotation # "common_lines"
   - positions_in_try_clause # "common_lines"
-  - positions_in_method_delcaration # "common_lines"
+  - positions_in_method_delcaration # "preserve_positions"
   - positions_in_lambda_declaration # "common_lines"
 
 comment:
