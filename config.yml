@@ -205,15 +205,15 @@ insert_space:
 parentheses:
   - positions_in_for_statment # "common_lines"
   - positions_in_method_invocation # "preserve_positions"
-  - positions_in_record_declaration # "common_lines"
+  - positions_in_record_declaration # "preserve_positions"
   - positions_in_switch_statement # "common_lines"
-  - positions_in_enum_constant_declaration # "common_lines"
+  - positions_in_enum_constant_declaration # "preserve_positions"
   - positions_in_if_while_statement # "common_lines"
   - positions_in_catch_clause # "common_lines"
   - positions_in_annotation # "common_lines"
   - positions_in_try_clause # "common_lines"
   - positions_in_method_delcaration # "preserve_positions"
-  - positions_in_lambda_declaration # "common_lines"
+  - positions_in_lambda_declaration # "preserve_positions"
 
 comment:
   - new_lines_at_block_boundaries # "true"
